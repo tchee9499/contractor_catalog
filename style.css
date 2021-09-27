@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+}
+#description{
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+}
+aside {
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+}
+#first, #second, #third, #fourth, #fifth, #sixth {
+    border: 2px solid black;
+    margin: 50px 150px;
+    /* overflow: scroll; */
+    padding: 10px;
+}
+
+
+
+
+@media (min-width: 800px) {
+    #wrapper {
+        display: flex;
+    }
+    aside{
+        flex-basis: 30%;
+    }
+    .first-line, .second-line{
+        flex-basis: 65%;
+    }
+    #first, #second, #third, #fourth, #fifth, #sixth {
+        /* flex-wrap: wrap; */
+        margin: 20px;
+    }
+    
+}
