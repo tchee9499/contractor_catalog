@@ -2,24 +2,29 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(189, 245, 189) 
-    /* linear-gradient(45deg, rgb(238, 170, 252),
-     rgb(111, 119, 238), rgb(255, 255, 177) ); */
+    background-color: #fce1e0;
+    color: black;
 }
 
 header {
     border: 2px solid black;
     margin: 5px;
     text-align: center;
-    font-family: 'Arvo', serif;
-    color: white;
-    background-color: rgb(175, 118, 118);
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 300;  
+    /* color: #f03f35; */
+    background-color: #fce1e0;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
+    letter-spacing: .2rem;
+}
+#tagline{
+    font-size: 20px;
+    letter-spacing: .05rem;
 }
 #openModal, #modal-textbox{
-    font-family: 'Arvo', serif;
+    font-family: 'Montserrat', sans-serif;    
     font-weight: bold;
     font-size: 20px;
 }
@@ -35,12 +40,13 @@ h1{
 	display: none;
 }
 #modal-textbox {
-	background-color: rgb(219, 253, 219);
+    background-color: #69ecee;
 	height: 300px;
-	width: 600px;
+	width: 500px;
 	border-radius: 2px;
 	margin: 150px auto;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 #description{
     /* border: 2px solid black; */
@@ -57,7 +63,7 @@ footer {
     margin: 20px;
     text-align: center;
     height: 10vh;
-    font-family: 'Arvo', serif;
+    font-family: 'Montserrat', sans-serif;    
     font-size: 20px;
 }
 #first, #second, #third, #fourth, #fifth, #sixth, #seventh, #eighth, #ninth {
@@ -66,7 +72,7 @@ footer {
     padding: 10px;
     transition: 0.3s ease-in-out;
     font-family: 'Arimo', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 form {
     font-family: 'Arimo', sans-serif;
@@ -79,40 +85,49 @@ img {
     max-width: 100%
 }  
 #first:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #second:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #third:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #fourth:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #fifth:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #sixth:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #seventh:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #eighth:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 #ninth:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(122, 119, 119);
+    color: white;
 }
 .picture-container {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
   }
   .carousel-images {
-    width: 80%;
+    width: 50%;
     /* background: #fa8d8e; */
     padding: 10px;
     border-radius: 50px;
@@ -125,13 +140,19 @@ img {
 
   .carousel-button {
     align-self: center;
-    background: black;
+    background: rgb(117, 114, 114);
     color: #888;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px white;
   }
+  .carousel-button:hover {
+    cursor: pointer;
+  }
+.lnr {
+    color: white;
+}
 
 @media (min-width: 800px) {
     #wrapper {
