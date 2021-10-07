@@ -13,7 +13,7 @@ header {
     font-family: 'Montserrat', sans-serif;    
     font-weight: 300;  
     /* color: #f03f35; */
-    background-color: #fce1e0;
+    background-color: rgb(216, 195, 250);
 }
 h1{
     font-size: 50px;
@@ -40,7 +40,7 @@ h1{
 	display: none;
 }
 #modal-textbox {
-    background-color: #69ecee;
+    background-color: rgb(216, 195, 250);
 	height: 300px;
 	width: 500px;
 	border-radius: 2px;
@@ -127,7 +127,7 @@ img {
     margin: 0 auto;
   }
   .carousel-images {
-    width: 50%;
+    width: 60%;
     /* background: #fa8d8e; */
     padding: 10px;
     border-radius: 50px;
@@ -165,5 +165,4 @@ img {
         /* flex-wrap: wrap; */
         margin: 20px;
     }
-    
 }
